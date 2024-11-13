@@ -23,7 +23,6 @@ function addEmoji(toFind) {
         
         span.addEventListener('click', () => {
             navigator.clipboard.writeText(emoji.emoji);
-            alert(`${emoji.emoji} Copied this emoji!!!`)
             let copiedDiv = '';
             copiedDiv += `
                 <div class="copied-div">
